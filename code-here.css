@@ -1,0 +1,123 @@
+#classic {
+  text-align: justify;
+  padding: 14px 20px 0 14px;
+  overflow: hidden;
+}
+
+#modern {
+  text-align: center;
+  padding: 15px 16px 0 16px;
+  background-color: rgb(255, 220, 0);
+  font-family: arial;
+  overflow: hidden;
+}
+
+#impact {
+  background: rgb(107, 247, 137);
+  border: 16px double;
+  text-align: center;
+  font-family: arial; 
+  padding: 21px 14px 0 14px;
+  overflow: hidden;
+  line-height: 110%;
+}
+
+#elise {
+  font-family: 'elise', cursive;
+  padding: 26px;
+  overflow: hidden;
+  height: 158px;
+  background-color: rgb(255, 251, 239);
+  text-align: center;
+	line-height: 
+  border: 5px solid rgb(168, 157, 142);
+  box-shadow: 5px 5px 5px rgb(213, 216, 213);
+}
+
+#one, #two {
+  margin-top: 92px;
+  overflow: hidden;
+  margin-left: 40px;
+  margin-right: 8px;
+  background-color: rgb(61, 255, 212);
+  padding: 0;
+  text-align: center;
+  border-left: 5px solid #34ced1;
+  border-top: 5px solid #34ced1;
+  border-bottom: 5px solid rgb(0, 126, 128);
+  border-right: 5px solid rgb(108, 187, 189);
+  font-family: Arial;
+    /* float: left; */
+  display: inline-block;
+}
+
+/* Try to refactor with mixed border styles */
+
+.doubles > p {
+  height: 128px;
+  overflow: hidden;
+  font-family: Arial;
+  margin: 0;
+  padding: 13px 17px 0 17px;
+  border-left: 5px solid rgb(0, 126, 128);
+  border-top: 5px solid rgb(0, 126, 128);
+  border-right: 5px solid #34ced1; 
+  border-bottom: 5px solid #34ced1;
+}  
+
+#gaudi {
+  font-family: "Yusei Magic", sans-serif;
+  overflow: hidden;
+  background-color: #F39F79;
+  border-radius: 15px 45px;
+  padding: 13px 15px 0 15px;
+  text-align: center;
+	box-shadow: 2px 3px gray;
+}
+
+/* FORMS */
+
+label {
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 200;
+  color: indigo;
+  text-align: center;
+  display: block;
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  padding: 1em;
+  box-sizing: border-box;
+  border: 1px solid olive;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  border: 1px solid purple;
+}
+
+input[type='submit'] {
+  width: 90%;
+  margin: auto;
+  height: 3em;
+  background: purple;
+  box-shadow: 2px 2px 4px black;
+  font-size: 1.3em;
+  color: whitesmoke;
+  border: 0px;
+  transition: 0.2s ease-in-out;
+  margin-bottom: 1em;
+  font-family: 'Yusei Magic', sans-serif;
+  text-transform: uppercase;
+}
+
+input[type='submit']:hover {
+  cursor: pointer;
+  background: rebeccapurple;
+  box-shadow: 2px 2px purple;
+}
+
